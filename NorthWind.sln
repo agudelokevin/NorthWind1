@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Business Rules", "Application Business Rules", "{168ED417-16AB-44EC-8C08-916726177FCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Business Rules", "Enterprise Business Rules", "{A00A090E-3CD4-41B5-9EBD-612746589668}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Adpaters", "Interface Adpaters", "{A581C3AC-9C23-45C4-BFE8-CA77F94D97A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks And Drivers", "Frameworks And Drivers", "{8D5F8CCB-11DD-4DBF-BF5D-B3D95B6B5902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Entities", "NorthWind.Entities\NorthWind.Entities.csproj", "{2AAAF70C-427D-4AB3-BF6C-96E1136EA201}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AAAF70C-427D-4AB3-BF6C-96E1136EA201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAAF70C-427D-4AB3-BF6C-96E1136EA201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAAF70C-427D-4AB3-BF6C-96E1136EA201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAAF70C-427D-4AB3-BF6C-96E1136EA201}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AAAF70C-427D-4AB3-BF6C-96E1136EA201} = {A00A090E-3CD4-41B5-9EBD-612746589668}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11BC848C-ECAF-4256-B7C5-D31366974369}
+	EndGlobalSection
+EndGlobal
