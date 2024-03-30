@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NorthWind.WebExceptionsPresenter
 {
-    public interface IExceptionHandler
+    public interface IExceptionHandle
     {
         Task Handle(ExceptionContext context);
     }
