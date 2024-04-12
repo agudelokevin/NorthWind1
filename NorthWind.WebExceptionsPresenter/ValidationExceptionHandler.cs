@@ -10,7 +10,7 @@ using FluentValidation;
 
 namespace NorthWind.WebExceptionsPresenter
 {
-     class ValidationExceptionHandler: ExceptionHandlerBase,IExceptionHandle
+     public class ValidationExceptionHandler: ExceptionHandlerBase,IExceptionHandle
     {
         public Task Handle(ExceptionContext context)
         {
