@@ -12,7 +12,7 @@ namespace NorthWind.Entities.Interfaces
     {
         void Create(Order order);
 
-        IEnumerable<Order> GetOrdersBySpecification(Specification<Order>specifications);
+        IEnumerable<Order> GetOrdersBySpecification(Specification<Order>specification);
 
     }
 }
